@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos Album</title>
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .album-comtainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: tomato;
+
+
+        }
+
+        img {
+            width: 300px;
+            border: 1px solid salmon;
+            height: 200px;
+            transition: transform 1s ease-in-out;
+
+
+        }
+
+        .photo {
+            height: 200px;
+            overflow: hidden;
+            border: 2px solid salmon;
+        }
+
+
+        .photo-freme {
+            border: 5px solid coral;
+            background-color: rgb(102, 0, 94);
+            width: 300px;
+            overflow: hidden;
+            height: 200px;
+            cursor: pointer;
+            transition: 1s ease-in;
+            border-radius: 20px;
+            margin: 10PX;
+            position: sticky;
+
+
+
+
+
+        }
+
+        .detels {
+            padding: 10px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+
+
+        }
+
+        .photo-freme:hover {
+            height: 350px;
+            box-shadow: 1px 5px 50px rgba(114, 0, 99, 0.918);
+
+
+
+        }
+
+
+        .photo-freme:hover img {
+            transform: scale(1.2) rotate(720deg);
+
+
+
+        }
+
+        header {
+            height: 100vh;
+            background-image: url(img/3.bmp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: left;
+        }
+
+        header div {
+            width: 50%;
+        }
+
+        header div h1 {
+            font-size: 4em;
+            color: tomato;
+        }
+
+        header div p {
+            color: rgb(255, 240, 157);
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Fox photo Album</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ex soluta et tenetur velit doloremque
+                similique aliquid aspernatur illo at temporibus provident blanditiis odio, suscipit quasi distinctio.
+                Error,
+                voluptates totam!</p>
+        </div>
+    </header>
+    <div class="album-comtainer">
+
+
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/1.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>Fox photo Album</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/2.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/3.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/4.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/5.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/6.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/7.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/8.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/9.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/10.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/11.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/12.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/13.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/14.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/15.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/16.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/17.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+        <div class="photo-freme">
+            <div class="photo">
+                <img src="img/18.bmp" alt="">
+            </div>
+            <div class="detels">
+
+                <h2>This is a Siyal-mama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam ipsum tempora dolorem,
+                    eaque
+                    exercitationem ratione facilis animi voluptate ullam?
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
